@@ -4,6 +4,13 @@ h3,
 p,
 li {
   font-family: serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(49, 207, 165);
 }
 
 h1 {
@@ -63,3 +70,64 @@ li {
 .related {
   list-style: none;
 }
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border: 10px solid #1098ad;
+  /* border-top: 5px solid #1098ad;
+  border-bottom: solid #1098ad;
+  border-left: solid #1098ad;
+  border-right: 15px solid #1098ad;
+  */
+}
+
+body {
+  background-color: rgba(0, 255, 157, 0.186);
+}
+
+articleli:first-child {
+  font-weight: bold;
+}
+
+article li:last-child {
+  font-style: italic;
+}
+
+article li:nth-child(2) {
+  color: red;
+}
+
+/* Misconception: this won't work use video 29 for reference*/
+article p:first-child {
+  color: red;
+}
+
+/* styling links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+/* My short hand for text-decoration didn't worked underline color--underline didn't worked */
+a:hover {
+  color: orangered;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-decoration: underline;
+  color: orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* LVHA this is the order dont edit in different order */
