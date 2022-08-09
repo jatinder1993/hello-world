@@ -1,16 +1,18 @@
-h1,
-h2,
-h3,
-p,
-li {
+* {
+  border-top: none #1098ad solid 30px;
+}
+
+body {
   font-family: serif;
   color: #444;
+
+  border-top: red solid 30px;
 }
 
 h1,
 h2,
 h3 {
-  color: rgb(49, 207, 165);
+  color: rgb(49, 115, 207);
 }
 
 h1 {
@@ -85,11 +87,7 @@ aside {
   */
 }
 
-body {
-  background-color: rgba(0, 255, 157, 0.186);
-}
-
-articleli:first-child {
+article li:first-child {
   font-weight: bold;
 }
 
@@ -131,3 +129,31 @@ a:active {
 }
 
 /* LVHA this is the order dont edit in different order */
+
+/* resolving conflict */
+#Copyright {
+  color: red;
+  /* font-size: 15px; */
+}
+
+.copyright {
+  color: blue;
+  font-size: 20px;
+}
+
+.text {
+  color: yellow;
+}
+
+/* footer p {
+  /* color: green !important;
+} */
+
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
