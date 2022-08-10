@@ -4,6 +4,7 @@
   padding: 0;
 }
 
+/* Page sections */
 body {
   font-family: serif;
   color: #444;
@@ -23,7 +24,7 @@ body {
   /* padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 aside {
@@ -35,6 +36,7 @@ aside {
   width: 500px;
 }
 
+/* smaller elements */
 h1,
 h2,
 h3 {
@@ -80,6 +82,7 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* display: inline; */
 }
 
 ul,
@@ -91,6 +94,7 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 
 li:last-child {
@@ -169,10 +173,25 @@ a:active {
 
 /* LVHA this is the order dont edit in different order */
 
+nav a:link {
+  /* background-color: orangered; */
+  /* margin: 20px; */
+  /* padding: 20px; */
+  /* display: block; */
+
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0px;
+}
+
 .post-image {
   width: 100%;
   height: auto;
-  margin-bottom: 30px;
+  /* margin: 100px; */
 }
 
 /* resolving conflict */
